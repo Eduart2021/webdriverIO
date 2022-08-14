@@ -1,12 +1,14 @@
-import LoginPage from  '../../login.page';
-import SecurePage from '../../secure.page';
+import LoginPage from  '../pageobjects/login.page';
+import SecurePage from '../pageobjects/secure.page';
 
 describe('login credentials',()=>{
-    it('should login',()=>{
-        LoginPage.open()
-       
-        LoginPage.login('tomsmith','SuperSecretPassword!')
+    it('should login', async ()=>{
+        await LoginPage.open();
 
-        expect(SecurePage.flashAlert).toHaveTextContaining('hello')
+        await LoginPage.login('tomsmith', 'SuperSecretPassword!');
+        await expect(SecurePage.flashAlert).toBeExisting();
+        await expect(SecurePage.flashAlert).toHaveTextContaining(
+            'You logged into a secure area!')
+
     })
 })
