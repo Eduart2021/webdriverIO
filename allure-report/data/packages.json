@@ -2,16 +2,33 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
+    "name" : "login credentials",
+    "children" : [ {
+      "name" : "should login",
+      "uid" : "bdcd55fe43f4082b",
+      "parentUid" : "f227cf93e5864506ca70f5ed17daf320",
+      "status" : "passed",
+      "time" : {
+        "start" : 1660514047762,
+        "stop" : 1660514049471,
+        "duration" : 1709
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-104.0.5112.81" ]
+    } ],
+    "uid" : "f227cf93e5864506ca70f5ed17daf320"
+  }, {
     "name" : "New In",
     "children" : [ {
       "name" : "Sample",
-      "uid" : "f0852fb5fdfde8b9",
+      "uid" : "7e7f9e140efa67d3",
       "parentUid" : "c257f9760a819d902f5e27909d3c9976",
       "status" : "passed",
       "time" : {
-        "start" : 1660454586683,
-        "stop" : 1660454591129,
-        "duration" : 4446
+        "start" : 1660514048904,
+        "stop" : 1660514053198,
+        "duration" : 4294
       },
       "flaky" : false,
       "newFailed" : false,

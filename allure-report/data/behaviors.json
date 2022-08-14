@@ -2,14 +2,27 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "Sample",
-    "uid" : "f0852fb5fdfde8b9",
+    "name" : "should login",
+    "uid" : "bdcd55fe43f4082b",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1660454586683,
-      "stop" : 1660454591129,
-      "duration" : 4446
+      "start" : 1660514047762,
+      "stop" : 1660514049471,
+      "duration" : 1709
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-104.0.5112.81" ]
+  }, {
+    "name" : "Sample",
+    "uid" : "7e7f9e140efa67d3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1660514048904,
+      "stop" : 1660514053198,
+      "duration" : 4294
     },
     "flaky" : false,
     "newFailed" : false,

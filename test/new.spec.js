@@ -5,7 +5,10 @@ describe("New In", () => {
   it("Sample", async () => {
     const browser = await remote({
       capabilities: {
-        browserName: "chrome"
+        browserName: "chrome",
+      //   'goog:chromeOptions':{
+      //     args: ['headless']
+      // }
       },
     });
 
@@ -22,11 +25,7 @@ describe("New In", () => {
   })
   await div.click()
 
-    // const apiLink = await browser.$('li[id="1848609637"]')
-    // //li[id="1848609637"]
-    // await apiLink.click();
-
-    await browser.saveScreenshot("./screenshot.png");
+    await browser.saveScreenshot("./screenshots/screenshot.png")
     await browser.deleteSession();
   });
 });
