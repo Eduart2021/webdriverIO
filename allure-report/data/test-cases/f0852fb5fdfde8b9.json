@@ -1,0 +1,58 @@
+{
+  "uid" : "f0852fb5fdfde8b9",
+  "name" : "Sample",
+  "fullName" : "New In.Sample",
+  "historyId" : "c825840b54131d714b4c991f09a129ab",
+  "time" : {
+    "start" : 1660454586683,
+    "stop" : 1660454591129,
+    "duration" : 4446
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "New In"
+  }, {
+    "name" : "testClass",
+    "value" : "New In"
+  }, {
+    "name" : "testMethod",
+    "value" : "Sample"
+  }, {
+    "name" : "package",
+    "value" : "New In"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-104.0.5112.81"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f0852fb5fdfde8b9.json",
+  "parameterValues" : [ "chrome-104.0.5112.81" ]
+}

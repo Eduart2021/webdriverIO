@@ -1,0 +1,18 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Sample",
+    "uid" : "f0852fb5fdfde8b9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1660454586683,
+      "stop" : 1660454591129,
+      "duration" : 4446
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-104.0.5112.81" ]
+  } ]
+}
