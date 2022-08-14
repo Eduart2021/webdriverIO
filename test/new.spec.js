@@ -13,7 +13,6 @@ describe("New In", () => {
 
     const div = await browser.waitUntil(async () => {
       const apiLink = await browser.$$('div[class="photogallery-column  column-4"]')
-      console.log(apiLink.length);
       if (apiLink <=1) {
           return false
       }
