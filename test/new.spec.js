@@ -5,7 +5,7 @@ describe("New In", () => {
   it("Sample", async () => {
     const browser = await remote({
       capabilities: {
-        browserName: "chrome",
+        browserName: "chrome"
       },
     });
 
@@ -13,11 +13,10 @@ describe("New In", () => {
 
     const div = await browser.waitUntil(async () => {
       const apiLink = await browser.$$('div[class="photogallery-column  column-4"]')
-      console.log(apiLink.length);
       if (apiLink <=1) {
           return false
       }
-      return apiLink[19]
+      return apiLink[15]
   }, {
       timeoutMsg: 'Never found elements'
   })

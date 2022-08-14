@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "New In",
+    "children" : [ {
+      "name" : "Sample",
+      "uid" : "f0852fb5fdfde8b9",
+      "parentUid" : "1ddc6a89014fffef18e125767b5c4f1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1660454586683,
+        "stop" : 1660454591129,
+        "duration" : 4446
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-104.0.5112.81" ]
+    } ],
+    "uid" : "1ddc6a89014fffef18e125767b5c4f1c"
+  } ]
+}

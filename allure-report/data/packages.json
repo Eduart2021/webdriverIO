@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "New In",
+    "children" : [ {
+      "name" : "Sample",
+      "uid" : "f0852fb5fdfde8b9",
+      "parentUid" : "c257f9760a819d902f5e27909d3c9976",
+      "status" : "passed",
+      "time" : {
+        "start" : 1660454586683,
+        "stop" : 1660454591129,
+        "duration" : 4446
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-104.0.5112.81" ]
+    } ],
+    "uid" : "c257f9760a819d902f5e27909d3c9976"
+  } ]
+}
