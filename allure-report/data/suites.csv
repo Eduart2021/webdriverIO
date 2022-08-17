@@ -1,3 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sun Aug 14 17:54:07 EDT 2022","Sun Aug 14 17:54:09 EDT 2022","1709","","login credentials","","login credentials","should login","should login",""
-"passed","Sun Aug 14 17:54:08 EDT 2022","Sun Aug 14 17:54:13 EDT 2022","4294","","New In","","New In","Sample","Sample",""
+"passed","Tue Aug 16 22:35:53 EDT 2022","Tue Aug 16 22:35:54 EDT 2022","673","","Log out","","Log out","Should Log out","Should Log out",""
+"passed","Tue Aug 16 22:35:51 EDT 2022","Tue Aug 16 22:35:53 EDT 2022","2049","","login credentials","","login credentials","should login","should login",""
+"passed","Tue Aug 16 22:35:52 EDT 2022","Tue Aug 16 22:35:57 EDT 2022","4298","","New In","","New In","Sample","Sample",""

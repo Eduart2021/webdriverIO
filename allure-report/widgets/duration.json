@@ -1,20 +1,30 @@
 [ {
-  "uid" : "bdcd55fe43f4082b",
-  "name" : "should login",
+  "uid" : "1cfa8deee95b240e",
+  "name" : "Should Log out",
   "time" : {
-    "start" : 1660514047762,
-    "stop" : 1660514049471,
-    "duration" : 1709
+    "start" : 1660703753954,
+    "stop" : 1660703754627,
+    "duration" : 673
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "7e7f9e140efa67d3",
+  "uid" : "54ff67ab972069d8",
+  "name" : "should login",
+  "time" : {
+    "start" : 1660703751886,
+    "stop" : 1660703753935,
+    "duration" : 2049
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7fa9b2cf8bc9c5b9",
   "name" : "Sample",
   "time" : {
-    "start" : 1660514048904,
-    "stop" : 1660514053198,
-    "duration" : 4294
+    "start" : 1660703752993,
+    "stop" : 1660703757291,
+    "duration" : 4298
   },
   "status" : "passed",
   "severity" : "normal"
