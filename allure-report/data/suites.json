@@ -5,13 +5,13 @@
     "name" : "login credentials",
     "children" : [ {
       "name" : "should login",
-      "uid" : "bdcd55fe43f4082b",
+      "uid" : "5bafb0baf6e6599",
       "parentUid" : "3b4c3b35b694643e9e8433b6799a9724",
       "status" : "passed",
       "time" : {
-        "start" : 1660514047762,
-        "stop" : 1660514049471,
-        "duration" : 1709
+        "start" : 1660705310332,
+        "stop" : 1660705313219,
+        "duration" : 2887
       },
       "flaky" : false,
       "newFailed" : false,
@@ -22,13 +22,13 @@
     "name" : "New In",
     "children" : [ {
       "name" : "Sample",
-      "uid" : "7e7f9e140efa67d3",
+      "uid" : "1784056aa9bc9fe2",
       "parentUid" : "1ddc6a89014fffef18e125767b5c4f1c",
       "status" : "passed",
       "time" : {
-        "start" : 1660514048904,
-        "stop" : 1660514053198,
-        "duration" : 4294
+        "start" : 1660705311692,
+        "stop" : 1660705317751,
+        "duration" : 6059
       },
       "flaky" : false,
       "newFailed" : false,
