@@ -1,15 +1,37 @@
 {
-  "total" : 3,
+  "total" : 6,
   "items" : [ {
+    "uid" : "450e2669623c3eb00b61e267047137d4",
+    "name" : "testing web",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "d0da17da5d0fb3cfada891dcbc7a2e4b",
+    "name" : "testing watches",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
     "uid" : "3b4c3b35b694643e9e8433b6799a9724",
     "name" : "login credentials",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     }
   }, {
     "uid" : "1ddc6a89014fffef18e125767b5c4f1c",
@@ -18,9 +40,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
+    }
+  }, {
+    "uid" : "c13c381a65d6ce8c8927d4d1fdee530e",
+    "name" : "should scroll",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
     }
   }, {
     "uid" : "682ff975cc35f672cc0dc2c8a59aaf97",

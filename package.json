@@ -15,6 +15,7 @@
         "test": "wdio run wdio.conf.js --spec"
     },
     "dependencies": {
-        "allure-commandline": "^2.18.1"
+        "allure-commandline": "^2.18.1",
+        "chai": "^4.3.6"
     }
 }
