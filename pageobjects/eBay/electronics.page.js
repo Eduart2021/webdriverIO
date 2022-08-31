@@ -1,4 +1,4 @@
-import basePage from "./basePage";
+import basePage from "../basePage";
 
 class electronic extends basePage{
 

@@ -4,22 +4,22 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "expect(...).toHveValue is not a function",
+      "name" : "expected '$NaN' to equal '$360.00'      \n                      actual expected\n                      \n                      '$NaN360.00'\n                      ",
       "children" : [ {
-        "name" : "should search",
-        "uid" : "973fd5a159cfaf8d",
-        "parentUid" : "b3fe0d586a487f5cd015e9a18e03f4be",
+        "name" : "Should enter amount and click 20%",
+        "uid" : "fde5b3e7eb8efaa7",
+        "parentUid" : "218b92a5231c6e951a6698b5ac47df10",
         "status" : "failed",
         "time" : {
-          "start" : 1660962113516,
-          "stop" : 1660962115652,
-          "duration" : 2136
+          "start" : 1661146978704,
+          "stop" : 1661146979644,
+          "duration" : 940
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "chrome-104.0.5112.101" ]
       } ],
-      "uid" : "b3fe0d586a487f5cd015e9a18e03f4be"
+      "uid" : "218b92a5231c6e951a6698b5ac47df10"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
